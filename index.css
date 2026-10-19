@@ -1,0 +1,50 @@
+body {
+    background-image: url("coffee.jpg");
+    background-size: cover;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 32px;
+    padding: 40px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #222222;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #222222;
+    font-weight: 400;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 24px;
+}
+
+#increment-btn {
+    background: #7CC4E0;
+}
+
+#save-btn {
+    background: #7DC6A3;
+}
+
